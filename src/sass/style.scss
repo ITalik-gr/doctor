@@ -24,8 +24,12 @@ ul {
     margin-left: 410px;
     // padding-left: 40px;
     // padding-right: 40px;
+    
 }
-
+.container-fluid {
+    max-width: 1515px;
+    overflow: hidden;
+}
 
 @import 'blocks/header';
 @import 'blocks/sidebar';
