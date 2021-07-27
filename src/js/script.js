@@ -1,5 +1,13 @@
 
+// let doctorInfo = document.querySelectorAll('.doctor-card-info'),
+// doctorBtn = document.querySelectorAll('.doctor-card');
 
+// console.log(doctorBtn);
+
+
+// doctorBtn.addEventListener('click', function() {
+//   doctorInfo.classList.toggle('doctor-card-info__active');
+// });
 // const swiper = new Swiper('.header-swiper-container', {
 
 // });
@@ -25,11 +33,3 @@ const swiper = new Swiper('.swiper-container', {
   },
 });
 
-
-// $('.header-swiper-container').slick({
-
-//   infinite: true,
-//   slidesToShow: 3,
-//   slidesToScroll: 1,
-
-// });

@@ -22,9 +22,6 @@ ul {
 }
 .content {
     margin-left: 410px;
-    // padding-left: 40px;
-    // padding-right: 40px;
-    
 }
 .container-fluid {
     max-width: 1515px;
@@ -36,3 +33,4 @@ ul {
 @import 'blocks/offer';
 @import 'blocks/why-we';
 @import 'blocks/doctor';
+@import 'blocks/feedback';
