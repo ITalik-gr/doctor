@@ -15,7 +15,22 @@ ul {
     padding: 0;
     margin: 0;
 }
-
+button:active,
+button:focus {
+    outline: none;
+}
+.btn {
+    transition: .4s all;
+    &:hover {
+        background: #FB143E;
+        box-shadow: 0px 4px 15px rgba(220, 45, 77, 0.25);
+    }
+    &:active {
+        background: #FF002F;
+        box-shadow: 0px 4px 15px rgba(220, 45, 77, 0.25);
+        border-radius: 25px;
+    }
+}
 .page-wrap {
     // display: flex;
     width: 100%;
@@ -34,3 +49,4 @@ ul {
 @import 'blocks/why-we';
 @import 'blocks/doctor';
 @import 'blocks/feedback';
+@import 'blocks/footer';

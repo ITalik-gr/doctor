@@ -51,6 +51,12 @@
         align-items: center;
         color: #FFFFFF;
         margin-bottom: 10px;
+        a {
+          font-weight: 500;
+          font-size: 14px;
+          align-items: center;
+          color: #FFFFFF;
+        }
         &:last-child {
           margin-bottom: 0;
         }

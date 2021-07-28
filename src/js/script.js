@@ -1,16 +1,12 @@
 
-// let doctorInfo = document.querySelectorAll('.doctor-card-info'),
-// doctorBtn = document.querySelectorAll('.doctor-card');
+const elems = document.querySelectorAll('.doctor-card__image');
 
-// console.log(doctorBtn);
+[...elems].forEach(elem => elem.addEventListener('click', changeClass))
 
 
-// doctorBtn.addEventListener('click', function() {
-//   doctorInfo.classList.toggle('doctor-card-info__active');
-// });
-// const swiper = new Swiper('.header-swiper-container', {
-
-// });
+function changeClass(e) {
+	this.querySelector('.doctor-card-info').classList.toggle('doctor-card-info__active');
+};
 
 new Swiper('.why-we-slider', {
   slidesPerView: 2,
