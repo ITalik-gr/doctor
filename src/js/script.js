@@ -15,6 +15,22 @@ new Swiper('.why-we-slider', {
     prevEl: '.why-we-prev',
     disabledClass: 'why-we-sl',
   },
+  breakpoints: {
+    // when window width is >= 320px
+    1715: {
+      slidesPerView: 2,
+    },
+    // when window width is >= 480px
+    1200: {
+      slidesPerView: 1,
+      spaceBetween: 30
+    },
+    // when window width is >= 640px
+    140: {
+      slidesPerView: 2,
+      spaceBetween: 40
+    }
+  }
 });
 
 
@@ -27,5 +43,22 @@ const swiper = new Swiper('.swiper-container', {
     type: 'bullets',
     clickable: true,
   },
+    breakpoints: {
+    // when window width is >= 320px
+    1715: {
+      slidesPerView: 3,
+      spaceBetween: 30
+    },
+    // when window width is >= 480px
+    1200: {
+      slidesPerView: 2,
+      spaceBetween: 30
+    },
+    // when window width is >= 640px
+    140: {
+      slidesPerView: 2,
+      spaceBetween: 40
+    }
+  }
 });
 
