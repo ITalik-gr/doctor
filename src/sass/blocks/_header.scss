@@ -76,6 +76,51 @@
 
   &-toggle {
     display: none;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    &::after,
+    &::before,
+    span {
+      content: '';
+      width: 100%;
+      position: absolute;
+      background: #2E3A59;
+      height: 3px;
+      transition: .3s all;
+    }
+    &::before {
+      top: 0;
+      left: 0;
+    }
+    span {
+      top: calc(50% - 1.5px);
+      left: 0;
+    }
+    &::after {
+      bottom: 0;
+      left: 0;
+    }
+    &-active {
+      height: 20px;
+      width: 30px;
+      &::before {
+        background: #EE1C42;
+        transform: rotate(
+          45deg);
+          top: 7px;
+      }
+      span {
+        display: none;
+      }
+      &::after {
+        background: #EE1C42;
+        transform: rotate(
+          -45deg);
+        bottom: 10px;
+      }
+    }
   }
   &-btn-mobile { 
     display: none;
