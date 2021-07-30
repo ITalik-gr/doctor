@@ -1,6 +1,12 @@
 
 
 @media (max-width: 1800px) { //1800
+  .page-menu {
+    padding-left: 65px;
+  }
+  .photo {
+    padding-left: 70px;
+  }
   .nav {
     &-wrap {
       justify-content: space-evenly;
@@ -78,6 +84,7 @@
 @media (max-width: 1400px) { //1200
   .sidebar {
     width: 300px;
+    min-height: 620px;
     &-list {
       &__item {
         span {
@@ -152,6 +159,12 @@
 @media (max-width: 1200px) { //992
   body {
     background: #FFFFFF;
+  }
+  .page-menu {
+    padding-left: 0px;
+  }
+  .photo {
+    padding-left: 0px;
   }
   .sidebar {
     display: none;
